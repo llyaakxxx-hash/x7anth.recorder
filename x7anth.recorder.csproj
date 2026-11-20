@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <AssemblyName>x7anth.recorder</AssemblyName>
+    <RootNamespace>x7anth.recorder</RootNamespace>
+    <ApplicationTitle>x7anth.recorder</ApplicationTitle>
+    <ApplicationIcon>Assets\app.ico</ApplicationIcon>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <Version>1.0.0</Version>
+    <Authors>x7anth</Authors>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\app.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="ffmpeg.exe"
+          CopyToOutputDirectory="PreserveNewest"
+          Condition="Exists('ffmpeg.exe')" />
+  </ItemGroup>
+
+</Project>
