@@ -1,5 +1,4 @@
 <img width="3168" height="1344" alt="Gemini_Generated_Image_j4a61qj4a61qj4a6" src="https://github.com/user-attachments/assets/dca02552-118b-499c-ac6a-985e7471dfde" />
-![x7anth.recorder](Assets/banner.png)
 
 # x7anth.recorder
 
